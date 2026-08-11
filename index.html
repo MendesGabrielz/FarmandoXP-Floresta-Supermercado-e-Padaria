@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
     <title>Supermercado</title>
 </head>
 
-<body>
+<body style="scroll-behavior: smooth;">
 
     <section class="secao-1">
 
@@ -23,13 +24,13 @@
         <div class="conteudo-header">
 
             <nav>
-                <h2>LOGO</h2>
+                <img src="assets/img/Logo2.png" alt="Logo" class="Logo-Topo">
 
                 <ul>
-                    <li><a href="">Nossa História</a></li>
-                    <li><a href="">Quitandas</a></li>
-                    <li><a href="">Outras seções</a></li>
-                    <li><a href="">Localização</a></li>
+                    <li><a href="#NossaHistoria">Nossa História</a></li>
+                    <li><a href="#quintandas">Quitandas</a></li>
+                    <li><a href="#secoes">Outras seções</a></li>
+                    <li><a href="#localizacao">Localização</a></li>
                 </ul>
             </nav>
 
@@ -50,16 +51,18 @@
     <section class="historia" id="historia">
 
         <div class="historia-texto">
-            <h2>Nossa História</h2>
+            <h2 id="NossaHistoria">Nossa História</h2>
 
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam turpis augue, dignissim ac est eget,
-                mattis sagittis magna. Sed quis rhoncus est. Donec vehicula aliquam auctor. Proin mi nisi, suscipit sit
-                amet semper in, faucibus auctor est. In a ligula ex. Etiam non neque porttitor, convallis diam eu,
-                placerat neque. Proin aliquam eu tortor nec congue. Donec dapibus tortor at ante tempor varius. Donec eu
-                purus odio. Suspendisse eget tortor est. Nullam condimentum elit et arcu faucibus lacinia. Morbi ornare
-                massa eget ante tincidunt rutrum. Aliquam ornare fringilla velit. Proin eget venenatis erat. Aenean
-                ultrices, leo nec iaculis viverra, nisl nisi varius dui, non aliquam est quam venenatis nulla.
+                Nossa trajetória começou em 30 de novembro de 1990, com a Mercearia do Paulo. Na época, funcionávamos de
+                forma muito simples, em uma pequena garagem que servia como depósito de pães.
+                Conforme a comunidade cresceu e a demanda aumentou, nos mudamos para um novo bairro e fundamos o
+                Supermercado Floresta. Enfrentamos os desafios do início nos adaptando e inovando — começamos até a
+                servir marmitas e espetinhos para atender aos nossos clientes com todo o carinho.
+                Em 2011, demos mais um grande passo com a inauguração da nossa padaria, produzindo diariamente pães,
+                bolos, doces e roscas fresquinhas.
+                Olhar para essa caminhada nos enche de orgulho. Agradecemos primeiramente a Deus e a cada cliente que
+                confia no nosso trabalho e faz parte da nossa história!
 
             </p>
         </div>
@@ -79,45 +82,45 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
 
-                    <img src="assets/img/doce1.png" alt="" class="img-quintanda">
-                    <h1>Bolo de Cenoura</h1>
+                    <img src="assets/img/doce1.png" alt="Brigadeiro" class="img-quintanda">
+                    <h1>Brigadeiro</h1>
 
                 </div>
 
                 <div class="swiper-slide">
 
-                    <img src="assets/img/doce2.png" alt="" class="img-quintanda">
-                    <h1>Bolo de Cenoura</h1>
+                    <img src="assets/img/doce2.png" alt="Beijinho" class="img-quintanda">
+                    <h1>Beijinho</h1>
 
                 </div>
                 <div class="swiper-slide">
 
-                    <img src="assets/img/doce3.png" alt="" class="img-quintanda">
-                    <h1>Bolo de Cenoura</h1>
+                    <img src="assets/img/RoscaCAcucar.jpg" alt="Rosca C Açucar" class="img-quintanda">
+                    <h1>Rosca C Açucar</h1>
 
                 </div>
                 <div class="swiper-slide">
 
-                    <img src="assets/img/doce4.png" alt="" class="img-quintanda">
-                    <h1>Bolo de Cenoura</h1>
+                    <img src="assets/img/RoscaSAcucar.jpg" alt="Rosca S Açucar" class="img-quintanda">
+                    <h1>Rosca S Açucar</h1>
 
                 </div>
                 <div class="swiper-slide">
 
-                    <img src="assets/img/doce5.png" alt="" class="img-quintanda">
-                    <h1>Bolo de Cenoura</h1>
+                    <img src="assets/img/Brownie.jpg" alt="Brownie" class="img-quintanda">
+                    <h1>Brownie</h1>
 
                 </div>
                 <div class="swiper-slide">
 
-                    <img src="assets/img/doce6.png" alt="" class="img-quintanda">
-                    <h1>Bolo de Cenoura</h1>
+                    <img src="assets/img/PaesBroas.jpg" alt="Pães e Broas" class="img-quintanda">
+                    <h1>Pães e Broas</h1>
 
                 </div>
                 <div class="swiper-slide">
 
-                    <img src="assets/img/doce7.png" alt="" class="img-quintanda">
-                    <h1>Bolo de Cenoura</h1>
+                    <img src="assets/img/PaodeLeiteNinho.jpg" alt="Pão de Leite Ninho" class="img-quintanda">
+                    <h1>Pão de Leite Ninho</h1>
 
                 </div>
             </div>
@@ -132,25 +135,24 @@
 
         <div class="swiper swiperSecoes">
             <div class="swiper-wrapper">
+
+
                 <div class="swiper-slide">
 
                     <div class="conteudo">
                         <div class="conteudo-esquerda">
 
-                            <img src="assets/img/foto-local.png" alt="" id="img-quintanda">
+                            <img src="assets/img/seçãoSalgadinhos.jpg" alt="Salgadinhos e Snacks" id="img-quintanda">
 
                         </div>
 
                         <div class="conteudo-direita">
 
-                            <h1>Limpeza</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam turpis augue, dignissim ac
-                                est
-                                eget, mattis sagittis magna. Sed quis rhoncus est. Donec vehicula aliquam auctor. Proin
-                                mi
-                                nisi, suscipit sit amet semper in, faucibus auctor est. In a ligula ex. Etiam non neque
-                                porttitor, convallis diam eu, placerat neque. Proin aliquam eu tortor nec congue. Donec
-                                dapibus tortor at ante tempor varius. </p>
+                            <h1>Salgadinhos e Snacks</h1>
+                            <p>Encontre uma grande variedade de salgadinhos e snacks para todos os momentos. A seção
+                                conta com opções de diferentes marcas, sabores e tamanhos, incluindo batatas chips,
+                                salgadinhos de milho, nachos e outros aperitivos. É uma ótima opção para lanches
+                                rápidos, reuniões, festas e para acompanhar o dia a dia.</p>
 
                         </div>
                     </div>
@@ -162,45 +164,18 @@
                     <div class="conteudo">
                         <div class="conteudo-esquerda">
 
-                            <img src="assets/img/foto-local.png" alt="" id="img-quintanda">
+                            <img src="assets/img/SeçãoPaesBiscoitos.jpg" alt="Pães, Biscoitos e Bolachas"
+                                id="img-quintanda">
 
                         </div>
 
                         <div class="conteudo-direita">
 
-                            <h1>Limpeza</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam turpis augue, dignissim ac
-                                est
-                                eget, mattis sagittis magna. Sed quis rhoncus est. Donec vehicula aliquam auctor. Proin
-                                mi
-                                nisi, suscipit sit amet semper in, faucibus auctor est. In a ligula ex. Etiam non neque
-                                porttitor, convallis diam eu, placerat neque. Proin aliquam eu tortor nec congue. Donec
-                                dapibus tortor at ante tempor varius. </p>
-
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="swiper-slide">
-
-                    <div class="conteudo">
-                        <div class="conteudo-esquerda">
-
-                            <img src="assets/img/foto-local.png" alt="" id="img-quintanda">
-
-                        </div>
-
-                        <div class="conteudo-direita">
-
-                            <h1>Limpeza</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam turpis augue, dignissim ac
-                                est
-                                eget, mattis sagittis magna. Sed quis rhoncus est. Donec vehicula aliquam auctor. Proin
-                                mi
-                                nisi, suscipit sit amet semper in, faucibus auctor est. In a ligula ex. Etiam non neque
-                                porttitor, convallis diam eu, placerat neque. Proin aliquam eu tortor nec congue. Donec
-                                dapibus tortor at ante tempor varius. </p>
+                            <h1>Pães, Biscoitos e Bolachas</h1>
+                            <p>Nossa seção de pães, biscoitos e bolachas reúne diversas opções para o café da manhã,
+                                lanche da tarde e consumo diário. São encontrados pães embalados, biscoitos doces e
+                                salgados, bolachas recheadas, cookies e outros produtos de mercearia. A variedade
+                                permite encontrar opções para diferentes gostos e necessidades.</p>
 
                         </div>
                     </div>
@@ -211,20 +186,18 @@
                     <div class="conteudo">
                         <div class="conteudo-esquerda">
 
-                            <img src="assets/img/foto-local.png" alt="" id="img-quintanda">
+                            <img src="assets/img/SeçãoHigienePessoal.jpg" alt="Higiene Pessoal e Cosméticos"
+                                id="img-quintanda">
 
                         </div>
 
                         <div class="conteudo-direita">
 
-                            <h1>Limpeza</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam turpis augue, dignissim ac
-                                est
-                                eget, mattis sagittis magna. Sed quis rhoncus est. Donec vehicula aliquam auctor. Proin
-                                mi
-                                nisi, suscipit sit amet semper in, faucibus auctor est. In a ligula ex. Etiam non neque
-                                porttitor, convallis diam eu, placerat neque. Proin aliquam eu tortor nec congue. Donec
-                                dapibus tortor at ante tempor varius. </p>
+                            <h1>Higiene Pessoal e Cosméticos</h1>
+                            <p>Aqui você encontra diversos produtos para cuidados pessoais e beleza. A seção reúne
+                                shampoos, condicionadores, cremes para cabelo, sabonetes, desodorantes, cremes
+                                corporais, produtos para higiene bucal e outros itens de uso cotidiano. São várias
+                                opções de marcas, fragrâncias e tipos de produtos para atender toda a família.</p>
 
                         </div>
                     </div>
@@ -235,20 +208,18 @@
                     <div class="conteudo">
                         <div class="conteudo-esquerda">
 
-                            <img src="assets/img/foto-local.png" alt="" id="img-quintanda">
+                            <img src="assets/img/SeçãoLimpeza.jpg" alt="Produtos de Limpeza" id="img-quintanda">
 
                         </div>
 
                         <div class="conteudo-direita">
 
-                            <h1>Limpeza</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam turpis augue, dignissim ac
-                                est
-                                eget, mattis sagittis magna. Sed quis rhoncus est. Donec vehicula aliquam auctor. Proin
-                                mi
-                                nisi, suscipit sit amet semper in, faucibus auctor est. In a ligula ex. Etiam non neque
-                                porttitor, convallis diam eu, placerat neque. Proin aliquam eu tortor nec congue. Donec
-                                dapibus tortor at ante tempor varius. </p>
+                            <h1>Produtos de Limpeza</h1>
+                            <p>A seção de limpeza oferece produtos essenciais para manter a casa sempre limpa e
+                                organizada. Conta com sabão em pó, detergentes, amaciantes, desinfetantes, água
+                                sanitária, produtos para limpeza de diferentes superfícies e outros itens domésticos.
+                                Também possui acessórios como vassouras, escovas e utensílios para facilitar a rotina de
+                                limpeza.</p>
 
                         </div>
                     </div>
@@ -314,7 +285,7 @@
     <footer>
         <div class="footer">
             <div class="footer-logo">
-                <img src="assets/img/logo.png" alt="Logo do Mercado">
+                <img src="assets/img/Logo.png" alt="Logo do Mercado">
                 <p>Todos os direitos reservados ©</p>
             </div>
 
@@ -324,12 +295,12 @@
                 <h3>Contatos</h3>
                 <div class="contato">
                     <img src="assets/img/WhatsApp.svg" alt="Whatsapp">
-                    <span>34 9XXXX XXXX</span>
+                    <span>34 988116780</span>
                 </div>
 
                 <div class="contato">
                     <img src="assets/img/Instagram.svg" alt="Instagram">
-                    <span>@username123</span>
+                    <span>@supermercadoflorestaptc</span>
                 </div>
             </div>
 
@@ -351,6 +322,14 @@
             centeredSlides: true,
             initialSlide: 1,
             spaceBetween: 30,
+            speed: 3000, 
+
+            autoplay: {
+                delay: 0, 
+                disableOnInteraction: false, 
+            },
+
+            loop: true, 
 
             pagination: {
                 el: ".swiper-pagination",

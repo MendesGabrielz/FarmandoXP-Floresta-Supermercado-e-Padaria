@@ -28,6 +28,11 @@
     
 }
 
+.Logo-Topo{
+
+    height: 180px;
+}
+
 .overlay {
     position: absolute;
     top: 0;
@@ -173,7 +178,7 @@ nav h2 {
 }
 
 .historia-texto{
-    width: 500px;
+    width: 700px;
 }
 
 .historia-texto h2{
