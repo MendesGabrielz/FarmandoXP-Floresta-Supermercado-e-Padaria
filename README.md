@@ -2,7 +2,7 @@
 
 Uma landing page moderna desenvolvida em **HTML, CSS e JavaScript**, criada para apresentar um supermercado/padaria de forma elegante, destacando sua história, produtos, localização e informações de contato.
 
-Desenvolvido por Gabriel, Gabriel Mendes e João Marcelo
+Desenvolvido por Gabriel Augusto, Gabriel Mendes e João Marcelo
 ---
 
 # Funcionalidades
